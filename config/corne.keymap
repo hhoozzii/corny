@@ -43,10 +43,10 @@
 
         default_layer {
 // ---------------------------------------------------------------------------------------------------------
-// |  F1 |   Q    |   W    |       F      |    P    |  G   | # |  J  |      L      |      U      |    Y   |   ;    |  F4   |
-// |  F2 | A/LGUI | R/LALT |    S/LCTL    |  T/LSFT |  D   | # |  H  |    N/LSFT   |   E/LCTRL   | I/LALT | O/LGUI | ENTER |
-// |  F3 |   Z    |   X    |       C      |    V    |  B   | # |  N  |      M      |      ,      |    .   |   /    |  F5   |
-//                         | LT MEDIA ESC | MO NAVI | LSFT | # | SPC | LT NUM BKSP | LT FUNC DEL |
+// |-|   Q    |   W    |       E      |    R    |  T   | # |  Y  |      U      |      I      |    O   |   P    |-|
+// |-| A/LGUI | S/LALT |    D/LCTL    |  F/LSFT |  G   | # |  H  |    J/LSFT   |   K/LCTRL   | L/LALT | '/LGUI |-|
+// |-|   Z    |   X    |       C      |    V    |  B   | # |  N  |      M      |      ,      |    .   |   /    |-|
+// |-|   -    |   -    | LT MEDIA ESC | MO NAVI | LSFT | # | SPC | LT NUM BKSP | LT FUNC DEL |   -    |   -    |-|
 
             bindings = <
 &kp F1  &kp Q        &kp W      &kp F      &kp P      &kp G         &kp J   &kp L       &kp U         &kp Y        &kp SCLN     &kp F4
@@ -72,11 +72,11 @@
         };
 
         media_keys {
-// -------------------------------------------------------------------------------------
-// |     |      |      |      |      |      | # |      |      |      |      |     |     |
-// |     | LGUI | LALT | LCTL | LSFT | TAB  | # | PREV | VOLD | VOLU | NEXT |     |     |
-// |     |      | RALT |      |      |      | # |      |      |      |      |     |     |
-//                     | HELD |      | LSFT | # | STOP | PLAY | MUTE |
+// ---------------------------------------------------------------------------------------------------------
+// |-|   Q    |   W    |       E      |    R    |  T   | # |  Y  |      U      |      I      |    O   |   P    |-|
+// |-| A/LGUI | S/LALT |    D/LCTL    |  F/LSFT |  G   | # |  H  |    J/LSFT   |   K/LCTRL   | L/LALT | '/LGUI |-|
+// |-|   Z    |   X    |       C      |    V    |  B   | # |  N  |      M      |      ,      |    .   |   /    |-|
+// |-|   -    |   -    | LT MEDIA ESC | MO NAVI | LSFT | # | SPC | LT NUM BKSP | LT FUNC DEL |   -    |   -    |-|
 
             bindings = <
 &trans     &trans    &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans    &trans    
