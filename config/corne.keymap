@@ -66,7 +66,7 @@
 //                     |       | HELD | tab  | # | enter  | BKSP  |  DEL  |
 
             bindings = <
-&trans   &trans    &trans     &trans      &trans     &trans        &kp UNDO  &kp CUT   &kp COPY  &kp PSTE  &kp UNDO   &trans    
+&trans   &trans    &trans     &trans      &trans     &trans        &kp REDO  &kp PSTE   &kp COPY  &kp CUT  &kp UNDO   &trans    
 &trans   &kp LGUI  &kp LALT   &kp LCTL    &kp LSFT   &trans        &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans   &trans
 &trans   &trans    &trans     &trans      &trans     &trans        &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans
                               &trans      &trans     &trans        &kp RET   &kp BKSP  &kp DEL
