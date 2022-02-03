@@ -79,7 +79,7 @@
 // |-|   -    |   -    | LT MEDIA ESC | MO NAVI | LSFT | # | SPC | LT NUM BKSP | LT FUNC DEL |   -    |   -    |-|
 
             bindings = <
-&trans     &trans    &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans    &trans    
+&trans     &trans    &trans     &trans     &trans     &trans        &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI   &trans    
 &trans     &kp LGUI  &kp LALT   &kp LCTL   &kp LSFT   &kp TAB       &cp M_PREV &cp M_VOLD &cp M_VOLU &cp M_NEXT &trans    &trans
 &kp LSFT   &trans    &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans    &trans
                                 &trans     &trans     &kp LSFT      &cp M_STOP &cp M_PLAY &cp M_MUTE
