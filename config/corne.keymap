@@ -74,12 +74,12 @@
         media_keys {
 // ---------------------------------------------------------------------------------------------------------
 // |-|   Q    |   W    |       E      |    R    |  T   | # |  RGB_TOG  |  RGB_MOD | RGB_HUI | RGB_SAI  | RGB_VAI  |-|
-// |-| A/LGUI | S/LALT |    D/LCTL    |  F/LSFT |  G   | # |  H  |    J/LSFT   |   K/LCTRL   | L/LALT | '/LGUI |-|
+// |-| A/LGUI | S/LALT |    D/LCTL    |  F/LSFT |  G   | # |  OUT_AUTO |   MPRV   |  VOLD   |   VOLU   |   MNXT   |-|
 // |-|   Z    |   X    |       C      |    V    |  B   | # |  N  |      M      |      ,      |    .   |   /    |-|
 // |-|   -    |   -    | LT MEDIA ESC | MO NAVI | LSFT | # | SPC | LT NUM BKSP | LT FUNC DEL |   -    |   -    |-|
 
             bindings = <
-&trans     &trans    &trans     &trans     &trans     &trans        &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI   &trans    
+&trans     &trans    &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans    &trans    
 &trans     &kp LGUI  &kp LALT   &kp LCTL   &kp LSFT   &kp TAB       &cp M_PREV &cp M_VOLD &cp M_VOLU &cp M_NEXT &trans    &trans
 &kp LSFT   &trans    &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans    &trans
                                 &trans     &trans     &kp LSFT      &cp M_STOP &cp M_PLAY &cp M_MUTE
