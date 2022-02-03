@@ -53,7 +53,7 @@
 &trans  &kp Q        &kp W      &kp E      &kp R      &kp T         &kp Y   &kp U       &kp I         &kp O        &kp P        &trans
 &trans  &hm LGUI A   &hm LALT S &hm LCTL D &hm LSFT F &kp G         &kp H   &hm LSFT J  &hm LCTL K    &hm LALT L   &hm LGUI APOS   &trans
 &trans  &kp Z        &kp X      &kp C      &kp V      &kp B         &kp N   &kp M       &kp CMMA      &kp DOT      &kp FSLH      &trans
-                        &kp ESC      &mo NAVI   &kp SPC      &kp RET &lt NUM BKSP &lt FUNC DEL
+                        &lt  ESC MEDIA     &lt NAVI SPC   &kp TAB      &kp RET &lt NUM BKSP &lt FUNC DEL
             >;
         };
 
