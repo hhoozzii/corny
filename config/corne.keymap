@@ -46,7 +46,7 @@
         default_layer {
 // ---------------------------------------------------------------------------------------------------------
 // |  F1 |   Q    |   W    |       F      |    P    |  G   | # |  J  |      L      |      U      |    Y   |   ;    |  F4   |
-// |  F2 | A/LGUI | R/LALT |    S/LCTL    |  T/LSFT |  D   | # |  H  |    N/RSFT   |   E/RCTRL   | I/RALT | O/LGUI | ENTER |
+// |  F2 | A/LGUI | R/LALT |    S/LCTL    |  T/LSFT |  D   | # |  H  |    N/RSFT   |   E/RCTRL   | I/RALT | O/RGUI | ENTER |
 // |  F3 |   Z    |   X    |       C      |    V    |  B   | # |  N  |      M      |      ,      |    .   |   /    |  F5   |
 //              | LT MEDIA ESC | LT NAV SPC | LT Mouse TAB | # | LT SYM RET | LT NUM BKSP | LT FUNC DEL |
 
@@ -60,16 +60,16 @@
 
         navigation {
 // ---------------------------------------------------------------------------------------
-// |     |      |      |       |      |      | # | UNDO | CUT  | COPY  | PASTE |     |     |
-// |     | LGUI | LALT | LCTL  | LSFT | TAB  | # | LFT  | DWN  |  UP   |  RGT  | ENT |     |
-// |     |      | RALT |       |      |      | # | HOME | PGDN | PGUP  |  END  |     |     |
-//                     | BTCLR | HELD | LSFT | # | SPC  | BKSP |  DEL  |
+// |     |      |      |       |      |      | # | Redo   | Paste | COPY  | Cut   |  Undo   |     |
+// |     | LGUI | LALT | LCTL  | LSFT |      | # |caps    | lft   |  DWN  |  Up   |  RGT    |     |
+// |     |      | RALT |       |      |      | # | insert | home  | pgdn  |  pgup |  end    |     |
+//                     |       | HELD | tab  | # | enter  | BKSP  |  DEL  |
 
             bindings = <
-&trans     &trans    &trans     &trans      &trans     &trans        &kp UNDO  &kp CUT   &kp COPY  &kp PSTE  &trans    &trans    
-&trans     &kp LGUI  &kp LALT   &kp LCTL    &kp LSFT   &kp TAB       &kp LARW  &kp DARW  &kp UARW  &kp RARW  &kp RET   &trans
-&kp LSFT   &trans    &trans     &trans      &trans     &trans        &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans
-                                &bt BT_CLR  &trans     &kp LSFT      &kp SPC   &kp BKSP  &kp DEL
+&trans   &trans    &trans     &trans      &trans     &trans        &kp UNDO  &kp CUT   &kp COPY  &kp PSTE  &kp UNDO   &trans    
+&trans   &kp LGUI  &kp LALT   &kp LCTL    &kp LSFT   &trans        &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans   &trans
+&trans   &trans    &trans     &trans      &trans     &trans        &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans
+                              &trans      &trans     &trans        &kp RET   &kp BKSP  &kp DEL
             >;  
         };
 
