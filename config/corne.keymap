@@ -1,7 +1,8 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
+ * Seth's Corne/crkbd keymap using ZMK
+ * Based off of miryoku
+ * https://github.com/sethdwoolley/zmk-config
  *
- * SPDX-License-Identifier: MIT
  */
 
 #include <behaviors.dtsi>
@@ -43,16 +44,16 @@
 
         default_layer {
 // ---------------------------------------------------------------------------------------------------------
-// |-|   Q    |   W    |       E      |    R    |  T   | # |  Y  |      U      |      I      |    O   |   P    |-|
-// |-| A/LGUI | S/LALT |    D/LCTL    |  F/LSFT |  G   | # |  H  |    J/LSFT   |   K/LCTRL   | L/LALT | '/LGUI |-|
-// |-|   Z    |   X    |       C      |    V    |  B   | # |  N  |      M      |      ,      |    .   |   /    |-|
-// |-|   -    |   -    | LT MEDIA ESC | MO NAVI | LSFT | # | SPC | LT NUM BKSP | LT FUNC DEL |   -    |   -    |-|
+// |  F1 |   Q    |   W    |       F      |    P    |  G   | # |  J  |      L      |      U      |    Y   |   ;    |  F4   |
+// |  F2 | A/LGUI | R/LALT |    S/LCTL    |  T/LSFT |  D   | # |  H  |    N/LSFT   |   E/LCTRL   | I/LALT | O/LGUI | ENTER |
+// |  F3 |   Z    |   X    |       C      |    V    |  B   | # |  N  |      M      |      ,      |    .   |   /    |  F5   |
+//                         | LT MEDIA ESC | MO NAVI | LSFT | # | SPC | LT NUM BKSP | LT FUNC DEL |
 
             bindings = <
-&trans  &kp Q        &kp W      &kp E      &kp R      &kp T         &kp Y   &kp U       &kp I         &kp O        &kp P     &trans
-&trans  &hm LGUI A   &hm LALT S &hm LCTL D &hm LSFT F &kp G         &kp H   &hm LSFT J  &hm LCTL K    &hm LALT L   &hm LGUI '   &trans
-&trans  &kp Z        &kp X      &kp C      &kp V      &kp B         &kp N   &kp M       &kp CMMA      &kp DOT      &kp FSLH     &trans
-                        &kp ESC      &mo NAVI   &kp TAB      &kp SPC &lt NUM BKSP &lt FUNC DEL
+&kp F1  &kp Q        &kp W      &kp F      &kp P      &kp G         &kp J   &kp L       &kp U         &kp Y        &kp SCLN     &kp F4
+&kp F2  &hm LGUI A   &hm LALT R &hm LCTL S &hm LSFT T &kp D         &kp H   &hm LSFT N  &hm LCTL E    &hm LALT I   &hm LGUI O   &kp RET
+&kp F3  &kp Z        &kp X      &kp C      &kp V      &kp B         &kp N   &kp M       &kp CMMA      &kp DOT      &kp FSLH     &kp F5
+                        &kp A      &mo NAVI   &kp LSFT      &kp SPC &lt NUM BKSP &lt FUNC DEL
             >;
         };
 
@@ -72,11 +73,11 @@
         };
 
         media_keys {
-// ---------------------------------------------------------------------------------------------------------
-// |-|   Q    |   W    |       E      |    R    |  T   | # |  RGB_TOG  |  RGB_MOD | RGB_HUI | RGB_SAI  | RGB_VAI  |-|
-// |-| A/LGUI | S/LALT |    D/LCTL    |  F/LSFT |  G   | # |  OUT_AUTO |   MPRV   |  VOLD   |   VOLU   |   MNXT   |-|
-// |-|   Z    |   X    |       C      |    V    |  B   | # |  N  |      M      |      ,      |    .   |   /    |-|
-// |-|   -    |   -    | LT MEDIA ESC | MO NAVI | LSFT | # | SPC | LT NUM BKSP | LT FUNC DEL |   -    |   -    |-|
+// -------------------------------------------------------------------------------------
+// |     |      |      |      |      |      | # |      |      |      |      |     |     |
+// |     | LGUI | LALT | LCTL | LSFT | TAB  | # | PREV | VOLD | VOLU | NEXT |     |     |
+// |     |      | RALT |      |      |      | # |      |      |      |      |     |     |
+//                     | HELD |      | LSFT | # | STOP | PLAY | MUTE |
 
             bindings = <
 &trans     &trans    &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans    &trans    
