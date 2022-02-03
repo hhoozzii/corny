@@ -11,11 +11,11 @@
 
 // Layer Definitions
 #define DEFAULT 0
-#define NAV 1
-#define MEDIA 2
-#define NUM 3
-#define FUNC 4
-#define NONE 0
+#define NAV     1
+#define MEDIA   2
+#define NUM     3
+#define FUNC    4
+#define MOUSE   5
 
 // TODO
 // Change right index LSFT on numbers layer to shift to alternative shift layer, 
