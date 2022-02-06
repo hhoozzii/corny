@@ -142,5 +142,6 @@
                                &trans    &trans    &kp LSFT      &kp LGUI   &trans   &trans
             >;
         };
+        
     };
 };
