@@ -137,7 +137,7 @@
 
             bindings = <
 &trans    &trans     &trans    &trans    &trans    &trans      &trans    &trans   &trans    &trans    &trans    &trans    
-&trans    &kp F11    &kp F4    &kp F5    &kp F6    &trans      &trans    &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
+&trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
 &trans    &trans     &trans    &trans    &trans    &trans      &trans    &trans   &kp RALT  &trans    &trans    &trans    
                                &trans    &trans    &trans      &kp LGUI   &trans   &trans
             >;
