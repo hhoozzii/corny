@@ -42,9 +42,9 @@
 //layer 00
         default_layer {
 // ---------------------------------------------------------------------------------------------------------
-// ||    Q     |    W     |     E    |     R    |     T    | # |     Y    |     U    |     I    |    O     |    P     ||
-// ||  A/LGUI  |  S/LALT  |  D/LCTL  |  F/LSFT  |     G    | # |     H    |   J/RSFT |  K/RCTRL |  L/RALT  |  '/RGUI  ||
-// ||    Z     |    X     |     C    |     V    |     B    | # |     N    |     M    |     ,    |     .    |    /     ||
+// ||     Q      |     W      |      E    |     R     |      T     | # |      Y     |      U     |      I     |     O      |     P      ||
+// ||   A/LGUI   |   S/LALT   |   D/LCTL  |  F/LSFT   |      G     | # |      H     |    J/RSFT  |   K/RCTRL  |   L/RALT   |   '/RGUI   ||
+// ||     Z      |     X      |      C    |     V     |      B     | # |      N     |      M     |      ,     |      .     |     /      ||
 //                        |ltMEDIAESC|lt NAV SPC|ltMOUS TAB| # |lt SYM RET|ltNUM BKSP|ltFUNC DEL|
 
             bindings = <
@@ -58,16 +58,16 @@
 //layer 01
         navigation {
 // ---------------------------------------------------------------------------------------
-// ||          |          |          |          |          | # |  Redo    |   Paste  |   COPY   |    Cut   |  Undo    ||
-// ||   LGUI   |   LALT   |   LCTL   |   LSFT   |          | # |  caps    |   lft    |   DWN    |    Up    |  RGT     ||
-// ||          |   RALT   |          |          |          | # |  insert  |  home    |   pgdn   |   pgup   |  end     ||
-//                        |          |   HELD   |          | # |  enter   |   BKSP   |   DEL    |
+// ||            |            |            |            |            | # |   Redo     |    Paste   |    COPY    |     Cut    |   Undo     ||
+// ||    LGUI    |    LALT    |    LCTL    |    LSFT    |            | # |   caps     |    lft     |    DWN     |     Up     |   RGT      ||
+// ||            |    RALT    |            |            |            | # |   insert   |   home     |    pgdn    |    pgup    |   end      ||
+//                            |            |    HELD    |            | # |   enter    |    BKSP    |    DEL     |
 
             bindings = <
-&trans   &trans     &trans       &trans       &trans          &trans        &kp C_AC_REDO  &kp PSTE   &kp COPY     &kp CUT      &kp UNDO         &trans    
-&trans   &kp LGUI   &kp LALT     &kp LCTL     &kp LSFT        &trans        &kp CAPS       &kp LARW   &kp DARW     &kp UARW     &kp RARW         &trans
-&trans   &kp RALT   &trans       &trans       &trans          &trans        &kp INS        &kp HOME   &kp PGDN     &kp PGUP     &kp END          &trans
-                    &trans       &trans       &trans          &kp RET       &kp BKSP       &kp DEL
+&trans &trans        &trans        &trans        &trans        &trans             &kp C_AC_REDO &kp PSTE      &kp COPY      &kp CUT       &kp UNDO      &trans    
+&trans &kp LGUI      &kp LALT      &kp LCTL      &kp LSFT      &trans             &kp CAPS       &kp LARW     &kp DARW      &kp UARW      &kp RARW      &trans
+&trans &kp RALT      &trans        &trans        &trans        &trans             &kp INS        &kp HOME     &kp PGDN      &kp PGUP      &kp END       &trans
+                                   &trans        &trans        &trans             &kp RET        &kp BKSP     &kp DEL
             >;  
         };
 
