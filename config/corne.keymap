@@ -41,9 +41,9 @@
 
         default_layer {
 // ---------------------------------------------------------------------------------------------------------
-// | - |    Q     |    W     |     F    |     P    |     G    | # |     J    |     L    |     U    |    Y     |    ;     | - |
-// | - |  A/LGUI  |  R/LALT  |  S/LCTL  |  T/LSFT  |     D    | # |     H    |   N/RSFT |  E/RCTRL |  I/RALT  |  O/RGUI  | - |
-// | - |    Z     |    X     |     C    |     V    |     B    | # |     N    |     M    |     ,    |     .    |    /     | - |
+// ||    Q     |    W     |     E    |     R    |     T    | # |     Y    |     U    |     I    |    O     |    P     ||
+// ||  A/LGUI  |  S/LALT  |  D/LCTL  |  F/LSFT  |     G    | # |     H    |   J/RSFT |  K/RCTRL |  L/RALT  |  '/RGUI  ||
+// ||    Z     |    X     |     C    |     V    |     B    | # |     N    |     M    |     ,    |     .    |    /     ||
 //              | lt MEDIA ESC | lt NAV SPC | lt BT TAB | # | lt SYM RET | lt NUM BKSP | lt FUNC DEL |
 
             bindings = <
@@ -101,16 +101,16 @@
 
         function_keys {
 // -------------------------------------------------------------------------------------
-// |     |  F12 |  F7  |  F8  |  F9  | PTSRN | # |     |     |      |      |      |     |
-// |     |  F11 |  F4  |  F5  |  F6  | SCRLL | # |     | SFT | CTRL | LALT | LGUI |     |
-// |     |  F10 |  F1  |  F2  |  F3  | PAUSE | # |     |     |      | RALT |      |     | 
-//                     |      |      |  TAB  | # | WIN |     | HELD |
+// ||   F12   |    F7    |    F8    |    F9    |  PTSRN   | # |          |          |          |          |          ||
+// ||   F11   |    F4    |    F5    |    F6    |  SCRLL   | # |          |   RSFT   |   RCTRL  |   RLALT  |   RLGUI  ||
+// ||   F10   |    F1    |    F2    |    F3    |  PAUSE   | # |          |          |          |   LALT   |          || 
+//                       |   ESC    |   SPC    |   TAB    | # |          |          |   HELD   |
 
             bindings = <
 &trans    &kp F12    &kp F7    &kp F8    &kp F9    &kp PRSC      &trans    &trans   &trans    &trans    &trans    &trans    
-&trans    &kp F11    &kp F4    &kp F5    &kp F6    &trans        &trans    &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
-&trans    &kp F10    &kp F1    &kp F2    &kp F3    &trans        &trans    &trans   &kp RALT  &trans    &trans    &trans    
-                               &trans    &trans    &kp LSFT      &kp LGUI   &trans   &trans
+&trans    &kp F11    &kp F4    &kp F5    &kp F6    &kp SLCK        &trans    &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
+&trans    &kp F10    &kp F1    &kp F2    &kp F3    &kp PAUSE_BREAK        &trans    &trans   &kp RALT  &trans    &trans    &trans    
+                               &kp ESC    &kp SPC    &kp TAP      &kp LGUI   &trans   &trans
             >;
         };
 
