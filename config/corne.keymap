@@ -112,14 +112,14 @@
                                &trans    &trans    &kp LSFT      &kp LGUI   &trans   &trans
             >;
         };
-        
+//        
 //          mouse_keys {
 // -------------------------------------------------------------------------------------
 // | - |          |          |          |          |          | # |   redo   |   paste  |   copy   |    cut   |   undo   | - |
 // | - |   LGUI   |   LALT   |   LCTL   |   LSFT   |          | # |          |   ms_l   |   ms_d   |    ms_u  |  ms_r    | - |
 // | - |          |          |          |          |          | # |          |   wh_l   |   wh_d   |    wh_u  |  wh_r    | - |
 //                           |          |          |          | # |  btn1    |   btn3   |   btn2   |
-
+//
 //            bindings = <
 //&trans    &trans    &trans    &trans    &trans    &trans      &kp C_AC_REDO   &kp PSTE    &kp COPY     &kp CUT      &kp UNDO       &trans    
 //&trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT &trans      &trans          &kp U_MS_L  &kp U_MS_D   &kp U_MS_U   &kp U_MS_R     &trans
@@ -128,7 +128,7 @@
 //            >;
 //       };
 
-        function_keys {
+        keys {
 // -------------------------------------------------------------------------------------
 // |     |  F12 |  F7  |  F8  |  F9  | PTSRN | # |     |     |      |      |      |     |
 // |     |  F11 |  F4  |  F5  |  F6  | SCRLL | # |     | SFT | CTRL | LALT | LGUI |     |
@@ -141,7 +141,6 @@
 &trans    &kp F10    &kp F1    &kp F2    &kp F3    &trans        &trans    &trans   &kp RALT  &trans    &trans    &trans    
                                &trans    &trans    &kp LSFT      &kp LGUI   &trans   &trans
             >;
-        };
-        
+        };        
     };
 };
