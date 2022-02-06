@@ -137,7 +137,7 @@
 
             bindings = <
 &trans    &trans     &trans    &trans    &trans    &trans      &kp C_AC_REDO  &kp PSTE    &kp COPY     &kp CUT      &kp UNDO     &trans    
-&trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &trans         &kp U_MS_L  &trans   &trans   &trans   &trans
+&trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &trans         &kp MS_L  &trans   &trans   &trans   &trans
 &trans    &kp RALT   &trans    &trans    &trans    &trans      &trans           &trans   &trans  &trans    &trans    &trans    
                                &trans    &trans    &trans      &kp LGUI   &trans   &trans
             >;
