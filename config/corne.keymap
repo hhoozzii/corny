@@ -112,5 +112,20 @@
                                &trans    &trans    &kp LSFT      &kp LGUI   &trans   &trans
             >;
         };
+        
+                mouse keys {
+// -------------------------------------------------------------------------------------
+// |     |  F12 |  F7  |  F8  |  F9  | PTSRN | # |     |     |      |      |      |     |
+// |     |  F11 |  F4  |  F5  |  F6  | SCRLL | # |     | SFT | CTRL | LALT | LGUI |     |
+// |     |  F10 |  F1  |  F2  |  F3  | PAUSE | # |     |     |      | RALT |      |     | 
+//                     |      |      |  TAB  | # | WIN |     | HELD |
+
+            bindings = <
+&trans    &kp F12    &kp F7    &kp F8    &kp F9    &kp PRSC      &trans    &trans   &trans    &trans    &trans    &trans    
+&trans    &kp F11    &kp F4    &kp F5    &kp F6    &trans        &trans    &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
+&trans    &kp F10    &kp F1    &kp F2    &kp F3    &trans        &trans    &trans   &kp RALT  &trans    &trans    &trans    
+                               &trans    &trans    &kp LSFT      &kp LGUI   &trans   &trans
+            >;
+        };
     };
 };
