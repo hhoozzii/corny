@@ -122,15 +122,15 @@
 //layer 05
         mouse_keys {
 // -------------------------------------------------------------------------------------
-// ||     {      |     &      |      *     |      (     |      )     | # |            |            |            |            |            ||
-// ||      :     |     $      |      %     |      ^     |      +     | # |            |    RSFT    |    RCTL    |    RALT    |    RGUI    ||
-// ||            |     !      |      @     |      #     |      |     | # |            |            |            |    LALT    |            ||
+// ||            |            |            |            |            | # |    REDO    |    PSTE    |    COPY    |     CUT    |    UNDO    ||
+// ||    LGUI    |    LALT    |    LCTL    |    LSFT    |            | # |            |    RSFT    |    RCTL    |    RALT    |    RGUI    ||
+// ||            |    RALT    |            |            |            | # |            |            |            |    LALT    |            ||
 //                            |            |            |            | # |    HELD    |            |            |
 
             bindings = <
-&trans &trans        &trans        &trans        &trans        &trans             &trans        &trans        &trans        &trans        &trans        &trans           
+&trans &trans        &trans        &trans        &trans        &trans             &kp C_AC_REDO &kp PSTE      &kp COPY      &kp CUT       &kp UNDO      &trans           
 &trans &kp LGUI      &kp LALT      &kp LCTL      &kp LSFT      &trans             &trans        &kp RSFT      &kp RCTL      &kp RALT      &kp RGUI      &trans        
-&trans &kp RALT      &trans        &trans        &trans        &trans             &trans        &trans        &trans        &kp LALT      &trans        &trans        
+&trans &trans        &kp RALT      &trans        &trans        &trans             &trans        &trans        &trans        &kp LALT      &trans        &trans        
                                    &trans        &trans        &trans             &trans        &trans        &trans        
             >;
         };  
@@ -138,13 +138,13 @@
 //layer 06        
         symbols {
 // -------------------------------------------------------------------------------------
-// | - |            |            |            |            |            | # |    redo    |    paste   |    copy    |     cut    |    undo    | - |
-// | - |    LGUI    |    LALT    |    LCTL    |    LSFT    |            | # |            |    ms_l    |    ms_d    |     ms_u   |   ms_r     | - |
-// | - |            |            |            |            |            | # |            |    wh_l    |    wh_d    |     wh_u   |   wh_r     | - |
+// ||     {      |     &      |      *     |      (     |      )     | # |    REDO    |    PSTE    |    COPY    |     CUT    |    UNDO    ||
+// ||      :     |     $      |      %     |      ^     |      +     | # |            |    ms_l    |    ms_d    |     ms_u   |   ms_r     ||
+// ||      ~     |     !      |      @     |      #     |      |     | # |            |    wh_l    |    wh_d    |     wh_u   |   wh_r     ||
 //                               |            |            |            | # |   btn1     |    btn3    |    btn2    |
 
             bindings = <
-&trans &trans        &trans        &trans        &trans        &trans             &kp C_AC_REDO &kp PSTE      &kp COPY      &kp CUT       &kp UNDO      &trans    
+&trans &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RPAR           &kp C_AC_REDO &kp PSTE      &kp COPY      &kp CUT       &kp UNDO      &trans    
 &trans &kp LGUI      &kp LALT      &kp LCTL      &kp LSFT      &trans             &trans        &trans        &trans        &trans        &trans        &trans
 &trans &kp RALT      &trans        &trans        &trans        &trans             &trans        &trans        &trans        &trans        &trans        &trans    
                                    &trans        &trans        &trans             &kp LGUI      &trans        &trans
