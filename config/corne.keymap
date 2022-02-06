@@ -78,7 +78,7 @@
             bindings = <
 &trans     &trans    &trans     &trans     &trans     &trans      &trans      &trans        &trans        &trans        &trans          &trans    
 &trans     &kp LGUI  &kp LALT   &kp LCTL   &kp LSFT   &trans      &cp M_PREV  &cp M_VOLD    &cp M_VOLU    &cp M_NEXT    &trans          &trans
-&trans     &trans    &trans     &trans     &trans     &trans      &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans
+&trans     &kp RALT  &trans     &trans     &trans     &trans      &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans
                                 &trans     &trans     &trans      &cp M_STOP  &cp M_PLAY    &cp M_MUTE
             >;
         };
@@ -138,7 +138,7 @@
             bindings = <
 &trans    &trans     &trans    &trans    &trans    &trans      &trans    &trans   &trans    &trans    &trans    &trans    
 &trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
-&trans    &trans     &trans    &trans    &trans    &trans      &trans    &trans   &kp RALT  &trans    &trans    &trans    
+&trans    &kp RALT   &trans    &trans    &trans    &trans      &trans    &trans   &kp RALT  &trans    &trans    &trans    
                                &trans    &trans    &trans      &kp LGUI   &trans   &trans
             >;
         };        
