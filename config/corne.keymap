@@ -109,17 +109,17 @@
             bindings = <
 &trans    &kp F12    &kp F7    &kp F8    &kp F9    &kp PRSC      &trans    &trans   &trans    &trans    &trans    &trans    
 &trans    &kp F11    &kp F4    &kp F5    &kp F6    &kp SLCK        &trans    &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
-&trans    &kp F10    &kp F1    &kp F2    &kp F3    &kp PAUSE_BREAK        &trans    &trans   &kp RALT  &trans    &trans    &trans    
+&trans    &kp F10    &kp F1    &kp F2    &kp F3    &trans        &trans    &trans   &kp RALT  &trans    &trans    &trans    
                                &kp ESC    &kp SPC    &kp TAP      &kp LGUI   &trans   &trans
             >;
         };
 
         bt_keys {
 // -------------------------------------------------------------------------------------
-// | - |          |          |          |          |          | # |   redo   |   paste  |   copy   |    cut   |   undo   | - |
-// | - |   LGUI   |   LALT   |   LCTL   |   LSFT   |          | # |          |   ms_l   |   ms_d   |    ms_u  |  ms_r    | - |
-// | - |          |          |          |          |          | # |          |   wh_l   |   wh_d   |    wh_u  |  wh_r    | - |
-//                           |          |          |          | # |  btn1    |   btn3   |   btn2   |
+// ||          |          |          |          |          | # |   redo   |   paste  |   copy   |    cut   |   undo   ||
+// ||   LGUI   |   LALT   |   LCTL   |   LSFT   |          | # |          |   ms_l   |   ms_d   |    ms_u  |  ms_r    ||
+// ||          |          |          |          |          | # |          |   wh_l   |   wh_d   |    wh_u  |  wh_r    ||
+//                        |          |          |   HELD   | # |  btn1    |   btn3   |   btn2   |
 
             bindings = <
 &trans    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &kp C_AC_REDO  &kp PSTE    &kp COPY     &kp CUT      &kp UNDO     &trans    
