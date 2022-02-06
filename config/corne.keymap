@@ -122,16 +122,16 @@
 //layer 05
         mouse_keys {
 // -------------------------------------------------------------------------------------
-// ||    {     |    &     |     *    |     (    |     )    | # |          |          |          |          |          ||
-// ||     :    |    $     |     %    |     ^    |     +    | # |          |   RSFT   |   RCTL   |   RALT   |   RGUI   ||
-// ||          |    !     |     @    |     #    |     |    | # |          |          |          |   LALT   |          ||
-//                        |          |          |          | # |   HELD   |          |          |
+// ||     {      |     &      |      *     |      (     |      )     | # |            |            |            |            |            ||
+// ||      :     |     $      |      %     |      ^     |      +     | # |            |    RSFT    |    RCTL    |    RALT    |    RGUI    ||
+// ||            |     !      |      @     |      #     |      |     | # |            |            |            |    LALT    |            ||
+//                            |            |            |            | # |    HELD    |            |            |
 
             bindings = <
-&trans    &trans     &trans    &trans    &trans    &trans      &trans      &trans      &trans       &trans       &trans       &trans    
-&trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &trans      &kp RSFT    &kp RCTL     &kp RALT     &kp RGUI     &trans
-&trans    &kp RALT   &trans    &trans    &trans    &trans      &trans      &trans      &trans       &kp LALT     &trans       &trans    
-                               &trans    &trans    &trans      &trans      &trans      &trans
+&trans &trans        &trans        &trans        &trans        &trans             &trans        &trans        &trans        &trans        &trans        &trans           
+&trans &kp LGUI      &kp LALT      &kp LCTL      &kp LSFT      &trans             &trans        &kp RSFT      &kp RCTL      &kp RALT      &kp RGUI      &trans        
+&trans &kp RALT      &trans        &trans        &trans        &trans             &trans        &trans        &trans        &kp LALT      &trans        &trans        
+                                   &trans        &trans        &trans             &trans        &trans        &trans        
             >;
         };  
         
