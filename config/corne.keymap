@@ -136,7 +136,7 @@
 //                           |          |          |          | # |  btn1    |   btn3   |   btn2   |
 
             bindings = <
-&trans    &trans     &trans    &trans    &trans    &trans      &trans    &trans   &trans    &trans    &trans    &trans    
+&trans    &trans     &trans    &trans    &trans    &trans      &kp C_AC_REDO    &kp PSTE   &kp COPY    &kp CUT    &kp UNDO    &trans    
 &trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
 &trans    &kp RALT   &trans    &trans    &trans    &trans      &trans    &trans   &kp RALT  &trans    &trans    &trans    
                                &trans    &trans    &trans      &kp LGUI   &trans   &trans
