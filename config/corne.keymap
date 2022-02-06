@@ -1,7 +1,7 @@
 /*
- * Seth's Corne/crkbd keymap using ZMK
+ * Corne/crkbd keymap using ZMK
  * Based off of miryoku
- * https://github.com/sethdwoolley/zmk-config
+ * https://github.com/hhoozzii/corny
  *
  */
 
@@ -15,7 +15,7 @@
 #define MEDIA   2
 #define NUM     3
 #define FUNC    4
-#define MOUSE   5
+#define BT      5
 #define SYM     6
 
 / {
@@ -137,7 +137,7 @@
 
             bindings = <
 &trans    &trans     &trans    &trans    &trans    &trans      &kp C_AC_REDO  &kp PSTE    &kp COPY     &kp CUT      &kp UNDO     &trans    
-&trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &trans         &kp MS_L  &trans   &trans   &trans   &trans
+&trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &trans         &trans  &trans   &trans   &trans   &trans
 &trans    &kp RALT   &trans    &trans    &trans    &trans      &trans           &trans   &trans  &trans    &trans    &trans    
                                &trans    &trans    &trans      &kp LGUI   &trans   &trans
             >;
