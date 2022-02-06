@@ -87,14 +87,14 @@
         numbers {
 // ---------------------------------------------------------------------------------
 // ||  [{    |    7     |    8     |    9     |    ]}    | # |          |          |          |          |          ||
-// ||    '@  |    4     |    5     |    6     |    =+    | # |          |    SFT   | CTRL     |   LALT   |    LGUI  ||
-// ||    #~  |    1     |    2     |    3     |    \|    | # |          |          |          |   RALT   |          || 
+// ||    ;:  |    4     |    5     |    6     |    =+    | # |          |   RSFT   |   RCTRL  |   RALT   |    RGUI  ||
+// ||    `~  |    1     |    2     |    3     |    \|    | # |          |          |          |   LALT   |          || 
 //                      |    .     |    0     |    -_    | # |          |    HELD  |          |
 
             bindings = <
 &trans    &kp LBKT  &kp NUM_7    &kp NUM_8    &kp NUM_9    &kp RBKT      &trans    &trans    &trans    &trans    &trans    &trans    
-&trans    &kp QUOT  &kp NUM_4    &kp NUM_5    &kp NUM_6    &kp EQL       &trans    &kp LSFT  &kp LCTL  &kp LALT  &kp LGUI  &trans
-&trans    &kp GRAVE &kp NUM_1    &kp NUM_2    &kp NUM_3    &kp BSLH      &trans    &trans    &trans    &kp RALT  &trans    &trans    
+&trans    &kp SEMI  &kp NUM_4    &kp NUM_5    &kp NUM_6    &kp EQL       &trans    &kp RSFT  &kp RCTL  &kp RALT  &kp RGUI  &trans
+&trans    &kp GRAVE &kp NUM_1    &kp NUM_2    &kp NUM_3    &kp BSLH      &trans    &trans    &trans    &kp LALT  &trans    &trans    
                                  &kp DOT      &kp NUM_0    &kp MINUS     &trans    &trans    &trans
             >;
         };
