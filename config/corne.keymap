@@ -72,13 +72,13 @@
         media {
 // -------------------------------------------------------------------------------------
 // | - |          |          |          |          |          | # |          |          |          |          |          | - |
-// |   |   LGUI   |   LALT   |   LCTL   |   LSFT   |          | # |   PREV   |   VOLD   |   VOLU   |   NEXT   |          |   |
+// |   |   LGUI   |   LALT   |   LCTL   |   LSFT   |          | # |          |   PREV   |   VOLD   |   VOLU   |    NEXT    |   |
 // |   |          |          |          |          |          | # |          |          |          |          |          |   |
 //                           |          |          |          | # |   STOP   |   PLAY   |   MUTE   |
 
             bindings = <
 &trans     &trans    &trans     &trans     &trans     &trans      &trans      &trans        &trans        &trans        &trans          &trans    
-&trans     &kp LGUI  &kp LALT   &kp LCTL   &kp LSFT   &trans      &cp M_PREV  &cp M_VOLD    &cp M_VOLU    &cp M_NEXT    &trans          &trans
+&trans     &kp LGUI  &kp LALT   &kp LCTL   &kp LSFT   &trans      &trans      &cp M_PREV    &cp M_VOLD    &cp M_VOLU    &cp M_NEXT      &trans
 &trans     &kp RALT  &trans     &trans     &trans     &trans      &trans      &trans        &trans        &trans        &trans          &trans
                                 &trans     &trans     &trans      &cp M_STOP  &cp M_PLAY    &cp M_MUTE
             >;
