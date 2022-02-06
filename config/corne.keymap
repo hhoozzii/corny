@@ -40,9 +40,9 @@
 
         default_layer {
 // ---------------------------------------------------------------------------------------------------------
-// | - |    Q     |    W     |     F    |     P    |     G    | # |    J    |     L    |    U    |    Y     |    ;     | - |
-// | - |  A/LGUI  |  R/LALT  |  S/LCTL  |  T/LSFT  |     D    | # |    H    |   N/RSFT | E/RCTRL |  I/RALT  |  O/RGUI  | - |
-// | - |    Z     |    X     |     C    |     V    |     B    | # |    N    |     M    |    ,    |     .    |    /     | - |
+// | - |    Q     |    W     |     F    |     P    |     G    | # |     J    |     L    |     U    |    Y     |    ;     | - |
+// | - |  A/LGUI  |  R/LALT  |  S/LCTL  |  T/LSFT  |     D    | # |     H    |   N/RSFT |  E/RCTRL |  I/RALT  |  O/RGUI  | - |
+// | - |    Z     |    X     |     C    |     V    |     B    | # |     N    |     M    |     ,    |     .    |    /     | - |
 //              | lt MEDIA ESC | lt NAV SPC | lt Mouse TAB | # | lt SYM RET | lt NUM BKSP | lt FUNC DEL |
 
             bindings = <
@@ -115,16 +115,16 @@
         
                 mouse keys {
 // -------------------------------------------------------------------------------------
-// |     |  F12 |  F7  |  F8  |  F9  | PTSRN | # |     |     |      |      |      |     |
-// |     |  F11 |  F4  |  F5  |  F6  | SCRLL | # |     | SFT | CTRL | LALT | LGUI |     |
-// |     |  F10 |  F1  |  F2  |  F3  | PAUSE | # |     |     |      | RALT |      |     | 
-//                     |      |      |  TAB  | # | WIN |     | HELD |
+// | - |          |          |          |          |          | # |   redo   |   paste  |   copy   |    cut   |   undo   | - |
+// | - |   LGUI   |   LALT   |   LCTL   |   LSFT   |          | # |          |   ms_l   |   ms_d   |    ms_u  |  ms_r    | - |
+// | - |          |          |          |          |          | # |          |   wh_l   |   wh_d   |    wh_u  |  wh_r    | - |
+//                           |          |          |          | # |  btn1    |   btn3   |   btn2   |
 
             bindings = <
-&trans    &kp F12    &kp F7    &kp F8    &kp F9    &kp PRSC      &trans    &trans   &trans    &trans    &trans    &trans    
-&trans    &kp F11    &kp F4    &kp F5    &kp F6    &trans        &trans    &kp LSFT &kp LCTL  &kp LALT  &kp LGUI  &trans
-&trans    &kp F10    &kp F1    &kp F2    &kp F3    &trans        &trans    &trans   &kp RALT  &trans    &trans    &trans    
-                               &trans    &trans    &kp LSFT      &kp LGUI   &trans   &trans
+&trans    &trans    &trans    &trans    &trans    &trans      &kp C_AC_REDO   &kp PSTE    &kp COPY     &kp CUT      &kp UNDO         &trans    
+&trans    kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &trans          &kp U_MS_L  &kp U_MS_D   &kp U_MS_U     &kp U_MS_R     &trans
+&trans    &trans    &trans    &trans    &trans    &trans      &trans          &kp U_WH_L  &kp U_WH_D   &kp U_WH_U     &kp U_WH_R     &trans    
+                               &trans    &trans   &trans      &kp U_BTN1      &kp U_BTN3  &kp U_BTN2
             >;
         };
     };
