@@ -18,8 +18,9 @@
 #define BT      5
 #define SYM     6
 
-/ {
-//  Homerow mod held behaviour 
+
+//  Homerow mod held behaviour
+/ { 
     behaviors {
         bhm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
