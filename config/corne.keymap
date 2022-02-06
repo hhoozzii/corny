@@ -73,13 +73,13 @@
 // -------------------------------------------------------------------------------------
 // | - |          |          |          |          |          | # |          |          |          |          |          | - |
 // |   |   LGUI   |   LALT   |   LCTL   |   LSFT   |          | # |   PREV   |   VOLD   |   VOLU   |   NEXT   |          |   |
-// |   |          |          |          |          |          | # |   U_BTCLR| U_BTSEL0 | U_BTSEL1 | U_BTSEL2 | U_BTSEL3 |
+// |   |          |          |          |          |          | # |          |          |          |          |          |   |
 //                           |          |          |          | # |   STOP   |   PLAY   |   MUTE   |
 
             bindings = <
 &trans     &trans    &trans     &trans     &trans     &trans      &trans      &trans        &trans        &trans        &trans          &trans    
 &trans     &kp LGUI  &kp LALT   &kp LCTL   &kp LSFT   &trans      &cp M_PREV  &cp M_VOLD    &cp M_VOLU    &cp M_NEXT    &trans          &trans
-&trans     &kp RALT  &trans     &trans     &trans     &trans      &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans
+&trans     &kp RALT  &trans     &trans     &trans     &trans      &trans      &trans        &trans        &trans        &trans          &trans
                                 &trans     &trans     &trans      &cp M_STOP  &cp M_PLAY    &cp M_MUTE
             >;
         };
@@ -122,7 +122,7 @@
 //                           |          |          |          | # |  btn1    |   btn3   |   btn2   |
 
             bindings = <
-&trans    &trans     &trans    &trans    &trans    &trans      &kp C_AC_REDO  &kp PSTE    &kp COPY     &kp CUT      &kp UNDO     &trans    
+&trans    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &kp C_AC_REDO  &kp PSTE    &kp COPY     &kp CUT      &kp UNDO     &trans    
 &trans    &kp LGUI   &kp LALT  &kp LCTL  &kp LSFT  &trans      &trans         &trans  &trans   &trans   &trans   &trans
 &trans    &kp RALT   &trans    &trans    &trans    &trans      &trans           &trans   &trans  &trans    &trans    &trans    
                                &trans    &trans    &trans      &kp LGUI   &trans   &trans
