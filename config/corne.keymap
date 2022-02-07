@@ -138,16 +138,16 @@
 //layer 06        
         symbols {
 // -------------------------------------------------------------------------------------
-// ||     {      |     &      |      *     |      (     |      )     | # |            |            |            |            |            ||
+// ||     {      |     &      |      *     |      (     |      }     | # |            |            |            |            |            ||
 // ||      :     |     $      |      %     |      ^     |      +     | # |            |    RSFT    |    RCTL    |    RALT    |    RGUI    ||
 // ||      ~     |     !      |      @     |      #     |      |     | # |            |            |            |            |            ||
-//                            |            |            |            | # |    HELD    |            |            |
+//                            |      (     |      )     |      _     | # |    HELD    |            |            |
 
             bindings = <
 &trans &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RPAR           &kp C_AC_REDO &kp PSTE      &kp COPY      &kp CUT       &kp UNDO      &trans    
 &trans &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS           &trans        &kp RSFT      &kp RCTL      &kp RALT      &kp RGUI      &trans        
 &trans &kp TILDE     &kp EXCL      &kp AT        &kp POUND     &kp PIPE           &trans        &trans        &trans        &trans        &trans        &trans    
-                                   &trans        &trans        &trans             &trans        &trans        &trans
+                                   &kp LPAR      &kp RPAR      &kp UNDER          &trans        &trans        &trans
             >;
         };        
     };
