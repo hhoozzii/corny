@@ -131,7 +131,7 @@
 &trans &trans        &trans        &trans        &trans        &trans             &trans        &trans        &trans        &trans        &trans        &trans   
 &trans &kp LGUI      &kp LALT      &kp LCTL      &kp LSFT      &trans             &trans        &trans        &trans        &trans        &trans        &trans        
 &trans &trans        &trans        &trans        &trans        &trans             &trans        &trans        &trans        &trans        &trans        &trans        
-                                   &trans        &trans        &trans             &U_BTN1       &U_BTN3       &U_BTN2        
+                                   &trans        &trans        &trans             &trans        &trans        &trans        
             >;
         };  
         
