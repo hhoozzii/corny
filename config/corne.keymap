@@ -63,8 +63,8 @@
 // ||            |            |            |            |            | # |   insert   |   home     |    pgdn    |    pgup    |   end      ||
 //                            |            |    HELD    |            | # |   enter    |    BKSP    |    DEL     |
 
-            bindings = <
-&trans &trans        &trans        &trans        &trans        &trans             &trans       &trans       &trans &trans       &kp C_CUT      &trans    
+            bindings = < 
+&trans &trans        &trans        &trans        &trans        &trans             &trans         &trans         &trans        &trans        &trans        &trans    
 &trans &kp LGUI      &kp LALT      &kp LCTL      &kp LSFT      &trans             &kp CAPS       &kp LARW       &kp DARW      &kp UARW      &kp RARW      &trans
 &trans &trans        &trans        &trans        &trans        &trans             &kp INS        &kp HOME       &kp PGDN      &kp PGUP      &kp END       &trans
                                    &trans        &trans        &trans             &kp RET        &kp BKSP       &kp DEL
@@ -128,7 +128,7 @@
 //                            |            |            |   HELD     | # |            |            |            |
 
             bindings = <
-&trans &trans        &trans        &trans        &trans        &trans             &kp C_AC_REDO &kp PSTE      &kp COPY      &kp CUT       &kp UNDO      &trans           
+&trans &trans        &trans        &trans        &trans        &trans             &trans        &trans        &trans        &trans        &trans        &trans   
 &trans &kp LGUI      &kp LALT      &kp LCTL      &kp LSFT      &trans             &trans        &trans        &trans        &trans        &trans        &trans        
 &trans &trans        &trans        &trans        &trans        &trans             &trans        &trans        &trans        &trans        &trans        &trans        
                                    &trans        &trans        &trans             &U_BTN1       &U_BTN3       &U_BTN2        
